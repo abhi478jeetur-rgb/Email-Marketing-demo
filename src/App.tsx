@@ -36,6 +36,7 @@ function App() {
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/90" />
             <div className="relative z-10 h-full flex flex-col items-center text-center px-6 pt-12 pb-10">
               <div className="text-white">
+                <img src="/logo.png" alt="HubberWeb Logo" className="w-16 h-16 md:w-20 md:h-20 mb-4 object-contain mx-auto brightness-0 invert" />
                 <h1 className="text-xl md:text-3xl leading-[0.95] tracking-tight font-medium" style={{ fontFamily: "'Instrument Serif', serif" }}>
                   HubberWeb
                 </h1>
@@ -159,10 +160,54 @@ function App() {
             </div>
           </section>
 
+          {/* About Section */}
+          <section id="about" className="px-4 md:px-20 py-16 bg-[#0A0A0A] border-t border-white/5">
+            <h2 className="text-3xl md:text-5xl leading-[1.05] tracking-tight mb-8 text-center" style={{ fontFamily: "'Instrument Serif', serif" }}>
+              About This Demo
+            </h2>
+            <div className="max-w-[500px] mx-auto space-y-6 text-center">
+              <p className="text-base md:text-lg leading-[1.6] text-[#A1A1AA]">
+                This is a <span className="text-white font-semibold">premium demo website</span> created by <span className="text-[#D8F90A]">HubberWeb</span>. It showcases our expertise in building high-converting landing pages for coaches, consultants, and course creators.
+              </p>
+              <p className="text-base md:text-lg leading-[1.6] text-[#A1A1AA]">
+                Our goal is to demonstrate how a well-designed, AI-enhanced presence can transform your business. This page is purely for demonstration and is intended to drive traffic to our main agency.
+              </p>
+              <div className="pt-4">
+                <a
+                  href="https://www.newaihubber.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-[#D8F90A] hover:underline font-medium text-lg"
+                >
+                  Get a similar demo for your brand <ArrowRight className="w-5 h-5" />
+                </a>
+              </div>
+            </div>
+          </section>
+
+          {/* Privacy Section */}
+          <section id="privacy" className="px-4 md:px-20 py-16 bg-[#111111] border-t border-white/5">
+            <h2 className="text-3xl md:text-5xl leading-[1.05] tracking-tight mb-8 text-center" style={{ fontFamily: "'Instrument Serif', serif" }}>
+              Privacy & Trust
+            </h2>
+            <div className="max-w-[500px] mx-auto text-center">
+              <p className="text-base md:text-lg leading-[1.6] text-[#A1A1AA] mb-6">
+                Your trust is our priority. As this is a demonstration site, <span className="text-white">we do not collect, store, or sell any personal data</span> from your interactions here. 
+              </p>
+              <div className="p-6 rounded-xl bg-white/5 border border-white/10 inline-block text-left">
+                <h3 className="text-[#D8F90A] font-semibold mb-2">No-Data-Selling Policy</h3>
+                <p className="text-sm text-[#A1A1AA]">
+                  We believe in transparency. Any information provided in this demo is used only to illustrate the user experience and is never persisted or shared.
+                </p>
+              </div>
+            </div>
+          </section>
+
           {/* Footer */}
           <footer className="bg-[#080808] text-white pt-12 px-4 md:px-10 text-center border-t border-white/5">
-            <div className="pb-8 flex justify-center">
-              <a href="#" className="text-2xl md:text-3xl font-bold tracking-tight text-white hover:text-[#DCFF00] transition-colors">
+            <div className="pb-8 flex flex-col items-center justify-center gap-4">
+              <img src="/logo.png" alt="HubberWeb Logo" className="w-12 h-12 brightness-0 invert opacity-80" />
+              <a href="https://www.newaihubber.com/" target="_blank" rel="noopener noreferrer" className="text-2xl md:text-3xl font-bold tracking-tight text-white hover:text-[#DCFF00] transition-colors">
                 HubberWeb
               </a>
             </div>
@@ -196,11 +241,11 @@ function App() {
               you can unsubscribe at any time by clicking "unsubscribe" below.
             </p>
             <div className="text-xs md:text-sm pb-3 space-x-2">
-              <a href="#" className="text-[#8F8E88] hover:underline">Support</a>
+              <a href="#about" className="text-[#8F8E88] hover:underline">About Demo</a>
               <span className="text-[#8F8E88]">|</span>
-              <a href="#" className="text-[#8F8E88] hover:underline">Privacy</a>
+              <a href="#privacy" className="text-[#8F8E88] hover:underline">Privacy</a>
               <span className="text-[#8F8E88]">|</span>
-              <a href="#" className="text-[#8F8E88] hover:underline">Terms</a>
+              <a href="https://www.newaihubber.com/" target="_blank" rel="noopener noreferrer" className="text-[#8F8E88] hover:underline">Main Site</a>
               <span className="text-[#8F8E88]">|</span>
               <a href="#" className="text-[#8F8E88] hover:underline">Unsubscribe</a>
             </div>
