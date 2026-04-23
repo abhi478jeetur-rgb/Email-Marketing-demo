@@ -11,7 +11,7 @@ function App() {
       <div className="max-w-[640px] mx-auto shadow-2xl overflow-hidden ring-1 ring-white/5">
         <div className="bg-[#111111] text-[#F2F2F2]">
           {/* Demo Banner */}
-          <div className="bg-black text-white text-center py-3 px-4 text-sm font-medium border-b border-white/10">
+          <div className="sticky top-0 z-50 bg-black text-white text-center py-3 px-4 text-sm font-medium border-b border-white/10 backdrop-blur-md bg-black/80">
             This is a demo website. If you want a premium landing page like this, visit our agency at{' '}
             <a
               href="https://www.newaihubber.com/"
