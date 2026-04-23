@@ -36,7 +36,7 @@ function App() {
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/90" />
             <div className="relative z-10 h-full flex flex-col items-center text-center px-6 pt-12 pb-10">
               <div className="text-white">
-                <img src="/logo.png" alt="HubberWeb Logo" className="w-16 h-16 md:w-20 md:h-20 mb-4 object-contain mx-auto brightness-0 invert" />
+                <img src="/logo.png" alt="HubberWeb Logo" className="w-16 h-16 md:w-20 md:h-20 mb-4 object-contain mx-auto" />
                 <h1 className="text-xl md:text-3xl leading-[0.95] tracking-tight font-medium" style={{ fontFamily: "'Instrument Serif', serif" }}>
                   HubberWeb
                 </h1>
@@ -206,7 +206,7 @@ function App() {
           {/* Footer */}
           <footer className="bg-[#080808] text-white pt-12 px-4 md:px-10 text-center border-t border-white/5">
             <div className="pb-8 flex flex-col items-center justify-center gap-4">
-              <img src="/logo.png" alt="HubberWeb Logo" className="w-12 h-12 brightness-0 invert opacity-80" />
+              <img src="/logo.png" alt="HubberWeb Logo" className="w-12 h-12" />
               <a href="https://www.newaihubber.com/" target="_blank" rel="noopener noreferrer" className="text-2xl md:text-3xl font-bold tracking-tight text-white hover:text-[#DCFF00] transition-colors">
                 HubberWeb
               </a>
